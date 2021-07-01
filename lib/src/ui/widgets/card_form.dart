@@ -150,6 +150,7 @@ class _CardFormState extends State<CardForm> {
                         ),
                       ),
                     ),
+                     if (widget.displayPostalCode)
                     _getPostalCodeField(),
                   ],
                 ),
