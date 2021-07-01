@@ -161,8 +161,6 @@ class _CardFormState extends State<CardForm> {
   }
 
   Widget _getPostalCodeField() {
-    if (widget.displayPostalCode) return Padding(padding: EdgeInsets.zero);
-
     return Container(
       padding: const EdgeInsets.symmetric(vertical: 8.0),
       margin: const EdgeInsets.only(top: 8),
